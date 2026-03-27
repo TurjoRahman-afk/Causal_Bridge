@@ -50,23 +50,43 @@ CausalBridge allows anyone to perform causal inference analysis by asking questi
 
 ## Screenshots
 
-###  Uploading a Dataset
-<!-- 🖼️ Replace with your screenshot: assets/dashboard.png -->
+### 🖥️ Main Dashboard — Upload Your Data
+> Drop in any CSV or Excel file. CausalBridge instantly reads your columns and prepares them for analysis.
+
 ![Dashboard](assets/dashboard.png)
 
-###  Asking a Question
-<!-- 🖼️ Replace with your screenshot: assets/upload.png -->
-![Upload Section](assets/upload.png)
+---
 
-###  Analysis Results
-<!-- 🖼️ Replace with your screenshot: assets/question.png -->
-![Asking a Causal Question](assets/question.png)
+### 💬 Ask a Question in Plain English
+> No SQL. No code. Just type what you want to know — like *"Does overtime cause employees to quit?"*
 
-###  Technical Details
-<!-- 🖼️ Replace with your screenshot: assets/results.png -->
-![Analysis Results](assets/results.png)
+![Asking a Question](assets/upload.png)
 
-> 📁 All images are stored in the [`assets/`](assets/) folder.
+---
+
+### 📊 Causal Analysis Results — With a Percentage
+> CausalBridge doesn't just say "yes" or "no". It tells you **by how much** — a statistically validated percentage change with a 95% confidence interval and p-value.
+>
+> *Example: "Overtime increases the probability of attrition by **18.3 percentage points** (p < 0.001, 95% CI: [12.1%, 24.5%])"*
+
+![Analysis Results](assets/question.png)
+
+---
+
+### 🔬 Deep Dive — Full Statistical Breakdown
+> Every result comes with the full statistical output: effect size (ATE), confidence interval, standard error, sample sizes, and a plain-English interpretation so anyone can understand it.
+
+![Full Results](assets/results.png)
+
+---
+
+### 📈 More Analysis Examples
+
+![Analysis Example 2](assets/analysis2.png)
+
+![Analysis Example 3](assets/analysis3.png)
+
+> 📁 All screenshots are stored in the [`assets/`](assets/) folder.
 
 ---
 
