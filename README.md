@@ -68,6 +68,8 @@ CausalBridge allows anyone to perform causal inference analysis by asking questi
 > CausalBridge doesn't just say "yes" or "no". It tells you **by how much** — a statistically validated percentage change with a 95% confidence interval and p-value.
 >
 > *Example: "Overtime increases the probability of attrition by **18.3 percentage points** (p < 0.001, 95% CI: [12.1%, 24.5%])"*
+> 
+>  📁 More screenshots are stored in the [`assets/`](assets/) folder to understand this part better .
 
 ![Analysis Results](assets/question.png)
 
@@ -77,16 +79,6 @@ CausalBridge allows anyone to perform causal inference analysis by asking questi
 > Every result comes with the full statistical output: effect size (ATE), confidence interval, standard error, sample sizes, and a plain-English interpretation so anyone can understand it.
 
 ![Full Results](assets/results.png)
-
----
-
-### 📈 More Analysis Examples
-
-![Analysis Example 2](assets/analysis2.png)
-
-![Analysis Example 3](assets/analysis3.png)
-
-> 📁 All screenshots are stored in the [`assets/`](assets/) folder.
 
 ---
 
