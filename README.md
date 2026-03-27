@@ -68,10 +68,6 @@ CausalBridge allows anyone to perform causal inference analysis by asking questi
 <!-- 🖼️ Replace with your screenshot: assets/results.png -->
 ![Analysis Results](assets/results.png)
 
-### 📖 API Documentation (Swagger)
-<!-- 🖼️ Replace with your screenshot: assets/swagger.png -->
-![Swagger API Docs](assets/swagger.png)
-
 > 📁 All images are stored in the [`assets/`](assets/) folder.
 
 ---
@@ -362,10 +358,6 @@ All settings live in the `.env` file at the project root:
 ## License
 
 This project is licensed under the MIT License.
-
-## Features
-
-- **Natural Language Processing**: Convert business questions into structured plans for causal analysis
 - **Multiple Causal Methods**: Support for backdoor adjustment, propensity score matching, and more
 - **Statistical Validation**: Confidence intervals, p-values, and bootstrap estimates
 - **RESTful API**: Easy integration with existing systems
