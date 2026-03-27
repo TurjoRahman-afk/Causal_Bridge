@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "CausalBridge"
+version = "0.1.0"
+description = "A FastAPI service that turns natural-language business questions into statistically valid causal estimates."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/yourusername/CausalBridge"
+repository = "https://github.com/yourusername/CausalBridge"
+keywords = ["fastapi", "causal inference", "nlp", "business questions"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.75.0"
+uvicorn = "^0.17.0"
+pydantic = "^1.9.0"
+numpy = "^1.21.0"
+pandas = "^1.3.0"
+scikit-learn = "^1.0.0"
+econml = "^0.13.0"
+dowhy = "^0.7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
