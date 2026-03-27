@@ -4,21 +4,25 @@ An AI-powered causal inference platform that transforms natural-language busines
 
 > **🚀 New to CausalBridge?** Check out [VERSION_2.0.md](VERSION_2.0.md) for a quick start guide, new features, and user-friendly examples!
 
+<!-- 🖼️ BANNER IMAGE — Replace with your project logo or hero screenshot -->
+![CausalBridge Banner](assets/banner.png)
+
 ---
 
 ## Table of Contents
 
 1. [Overview](#overview)
 2. [Features](#features)
-3. [Project Structure](#project-structure)
-4. [Installation](#installation)
-5. [API Key Setup](#api-key-setup)
-6. [Running the Project](#running-the-project)
-7. [Using the Dashboard](#using-the-dashboard)
-8. [API Endpoints](#api-endpoints)
-9. [Supported Causal Methods](#supported-causal-methods)
-10. [Configuration Reference](#configuration-reference)
-11. [Roadmap](#roadmap)
+3. [Screenshots](#screenshots)
+4. [Project Structure](#project-structure)
+5. [Installation](#installation)
+6. [API Key Setup](#api-key-setup)
+7. [Running the Project](#running-the-project)
+8. [Using the Dashboard](#using-the-dashboard)
+9. [API Endpoints](#api-endpoints)
+10. [Supported Causal Methods](#supported-causal-methods)
+11. [Configuration Reference](#configuration-reference)
+12. [Roadmap](#roadmap)
 
 ---
 
@@ -43,6 +47,32 @@ CausalBridge allows anyone to perform causal inference analysis by asking questi
 - **RESTful API** — Integrate CausalBridge into any existing system
 - **Data Quality Checks** — Automatic validation before analysis runs
 - **Multi-format Support** — CSV, Excel (.xlsx), JSON, Parquet
+
+---
+
+## Screenshots
+
+### 🖥️ Main Dashboard
+<!-- 🖼️ Replace with your screenshot: assets/dashboard.png -->
+![Dashboard](assets/dashboard.png)
+
+### 📤 Uploading a Dataset
+<!-- 🖼️ Replace with your screenshot: assets/upload.png -->
+![Upload Section](assets/upload.png)
+
+### 💬 Asking a Question
+<!-- 🖼️ Replace with your screenshot: assets/question.png -->
+![Asking a Causal Question](assets/question.png)
+
+### 📊 Analysis Results
+<!-- 🖼️ Replace with your screenshot: assets/results.png -->
+![Analysis Results](assets/results.png)
+
+### 📖 API Documentation (Swagger)
+<!-- 🖼️ Replace with your screenshot: assets/swagger.png -->
+![Swagger API Docs](assets/swagger.png)
+
+> 📁 All images are stored in the [`assets/`](assets/) folder.
 
 ---
 
@@ -332,14 +362,6 @@ All settings live in the `.env` file at the project root:
 ## License
 
 This project is licensed under the MIT License.
-
-## Overview
-
-CausalBridge allows users to perform causal inference analysis by asking questions in natural language. The system:
-1. Accepts a natural language question about causal relationships
-2. Translates it into a causal analysis plan
-3. Executes the plan on provided datasets
-4. Returns statistical results with confidence intervals
 
 ## Features
 
