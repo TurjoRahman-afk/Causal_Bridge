@@ -2,10 +2,8 @@
 
 An AI-powered causal inference platform that transforms natural-language business questions into statistically valid causal estimates — no statistics PhD required.
 
-> **🚀 New to CausalBridge?** Check out [VERSION_2.0.md](VERSION_2.0.md) for a quick start guide, new features, and user-friendly examples!
+> ** New to CausalBridge?** Check out [VERSION_2.0.md](VERSION_2.0.md) for a quick start guide, new features, and user-friendly examples!
 
-<!-- 🖼️ BANNER IMAGE — Replace with your project logo or hero screenshot -->
-![CausalBridge Banner](assets/banner.png)
 
 ---
 
@@ -52,19 +50,19 @@ CausalBridge allows anyone to perform causal inference analysis by asking questi
 
 ## Screenshots
 
-### 🖥️ Main Dashboard
+###  Uploading a Dataset
 <!-- 🖼️ Replace with your screenshot: assets/dashboard.png -->
 ![Dashboard](assets/dashboard.png)
 
-### 📤 Uploading a Dataset
+###  Asking a Question
 <!-- 🖼️ Replace with your screenshot: assets/upload.png -->
 ![Upload Section](assets/upload.png)
 
-### 💬 Asking a Question
+###  Analysis Results
 <!-- 🖼️ Replace with your screenshot: assets/question.png -->
 ![Asking a Causal Question](assets/question.png)
 
-### 📊 Analysis Results
+###  Technical Details
 <!-- 🖼️ Replace with your screenshot: assets/results.png -->
 ![Analysis Results](assets/results.png)
 
@@ -252,7 +250,7 @@ Open your browser and go to:
 ## API Endpoints
 
 ### `POST /api/v1/analyze`
-Run a causal analysis.
+Run a causal analysis. Explaining how the API takes the questions and understands it.
 
 **Request:**
 ```json
@@ -358,6 +356,10 @@ All settings live in the `.env` file at the project root:
 ## License
 
 This project is licensed under the MIT License.
+
+## Features
+
+- **Natural Language Processing**: Convert business questions into structured plans for causal analysis
 - **Multiple Causal Methods**: Support for backdoor adjustment, propensity score matching, and more
 - **Statistical Validation**: Confidence intervals, p-values, and bootstrap estimates
 - **RESTful API**: Easy integration with existing systems
@@ -568,7 +570,3 @@ flake8 src/
 ## License
 
 This project is licensed under the MIT License.
-
-## Support
-
-For issues, questions, or contributions, please open an issue on GitHub.
